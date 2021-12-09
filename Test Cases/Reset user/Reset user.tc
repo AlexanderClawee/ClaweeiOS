@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login</name>
+   <name>Reset user</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d86411b3-2cff-4997-9ba6-a182fbda4dff</testCaseGuid>
+   <testCaseGuid>ecb1f1a8-c099-4dd7-b1ff-e67c34923394</testCaseGuid>
 </TestCaseEntity>

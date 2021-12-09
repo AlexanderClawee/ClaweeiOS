@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression,,,,2021-12-09 13:30:44,2021-12-09 13:32:14,1m - 29.481s,PASSED
+,,,,,,,
+Test Cases/Login Email,,,,2021-12-09 13:30:45,2021-12-09 13:31:41,56.648s,PASSED
+"startExistingApplication(""com.gigantic.clawee"")",,,,2021-12-09 13:30:45,2021-12-09 13:31:10,25.019s,PASSED
+"tap(findTestObject(""First test/Login email/Connect with E-mail""), 0)",,,,2021-12-09 13:31:10,2021-12-09 13:31:11,1.199s,PASSED
+"setText(findTestObject(""First test/Login email/First name""), ""Alexander"", 0)",,,,2021-12-09 13:31:11,2021-12-09 13:31:13,1.590s,PASSED
+"setText(findTestObject(""First test/Login email/Last name""), ""Testing"", 0)",,,,2021-12-09 13:31:13,2021-12-09 13:31:14,1.642s,PASSED
+"setText(findTestObject(""First test/Login email/E-mail""), ""alex.qa.eng+55@gmail.com"", 0)",,,,2021-12-09 13:31:14,2021-12-09 13:31:17,2.219s,PASSED
+"setText(findTestObject(""First test/Login email/Password""), ""Alex0611"", 0)",,,,2021-12-09 13:31:17,2021-12-09 13:31:18,1.809s,PASSED
+"sendKeys(findTestObject(""First test/Login email/Next""), ""Next"")",,,,2021-12-09 13:31:18,2021-12-09 13:31:40,21.934s,PASSED
+"tap(findTestObject(""First test/Login email/Sign Up""), 0)",,,,2021-12-09 13:31:40,2021-12-09 13:31:41,0.962s,PASSED
+,,,,,,,
+Test Cases/First test/6 Weclome screens,,,,2021-12-09 13:31:41,2021-12-09 13:32:06,24.601s,PASSED
+"tap(findTestObject(""First test/Login guest/Next welcome pop up""), 0)",,,,2021-12-09 13:31:42,2021-12-09 13:31:49,7.667s,PASSED
+"tap(findTestObject(""First test/Login guest/Next welcome pop up""), 0)",,,,2021-12-09 13:31:49,2021-12-09 13:31:51,2.164s,PASSED
+"tap(findTestObject(""First test/Login guest/Next welcome pop up""), 0)",,,,2021-12-09 13:31:51,2021-12-09 13:31:54,2.261s,PASSED
+"tap(findTestObject(""First test/Login guest/Next welcome pop up""), 0)",,,,2021-12-09 13:31:54,2021-12-09 13:31:56,2.507s,PASSED
+"tap(findTestObject(""First test/Login guest/Next welcome pop up""), 0)",,,,2021-12-09 13:31:56,2021-12-09 13:31:59,2.508s,PASSED
+"tap(findTestObject(""First test/Login guest/Lets Go welcom pop up""), 0)",,,,2021-12-09 13:31:59,2021-12-09 13:32:01,2.464s,PASSED
+"tap(findTestObject(""First test/Login guest/popup close button""), 0)",,,,2021-12-09 13:32:01,2021-12-09 13:32:04,2.420s,PASSED
+"tap(findTestObject(""First test/Login guest/Lets go (Play for real)""), 0)",,,,2021-12-09 13:32:04,2021-12-09 13:32:06,2.437s,PASSED
+,,,,,,,
+Test Cases/Reset user/Reset user,,,,2021-12-09 13:32:06,2021-12-09 13:32:14,7.975s,PASSED
+"tap(findTestObject(""First test/Reset user/iconProfile""), 0)",,,,2021-12-09 13:32:06,2021-12-09 13:32:08,2.356s,PASSED
+"tap(findTestObject(""First test/Reset user/developer menu""), 0)",,,,2021-12-09 13:32:08,2021-12-09 13:32:11,2.275s,PASSED
+"tap(findTestObject(""First test/Reset user/Reset account""), 0)",,,,2021-12-09 13:32:11,2021-12-09 13:32:13,1.938s,PASSED
+"tap(findTestObject(""First test/Reset user/Reset""), 0)",,,,2021-12-09 13:32:13,2021-12-09 13:32:14,1.221s,PASSED

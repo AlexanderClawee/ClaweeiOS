@@ -17,21 +17,37 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.gigantic.clawee', FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('First test/Lobby/Freebie Shop'), 0)
 
-Mobile.tap(findTestObject('First test/Sign in as guest'), 0)
+Mobile.tap(findTestObject('First test/Lobby/iconHome'), 0)
 
-Mobile.tap(findTestObject('First test/Next'), 0)
+Mobile.tap(findTestObject('First test/Lobby/Free rounds'), 0)
 
-Mobile.tap(findTestObject('First test/Next'), 0)
+Mobile.tap(findTestObject('First test/Lobby/iconHome'), 0)
 
-Mobile.tap(findTestObject('First test/Next'), 0)
+Mobile.tap(findTestObject('First test/Lobby/Prizes'), 0)
 
-Mobile.tap(findTestObject('First test/Next'), 0)
+Mobile.tap(findTestObject('First test/Lobby/iconHome'), 0)
 
-Mobile.tap(findTestObject('First test/Next'), 0)
+Mobile.tap(findTestObject('First test/Lobby/Mail'), 0)
 
-Mobile.tap(findTestObject('First test/Next'), 0)
+Mobile.tap(findTestObject('First test/Lobby/Done'), 0)
 
-Mobile.tap(findTestObject('First test/Next'), 0)
+Mobile.checkElement(findTestObject('First test/Lobby/Lock'), 0)
+
+Mobile.comment('elemant is fined ')
+
+Mobile.checkElement(findTestObject('First test/Lobby/Balance 400'), 0)
+
+Mobile.comment('elemant is fined ')
+
+Mobile.tap(findTestObject('First test/Lobby/Open StoreBonusFreebies'), 0)
+
+Mobile.tap(findTestObject('First test/Lobby/Store'), 0)
+
+Mobile.tap(findTestObject('First test/Lobby/Bonus'), 0)
+
+Mobile.tap(findTestObject('First test/Lobby/Freebies'), 0)
+
+Mobile.tap(findTestObject('First test/Lobby/iconHome'), 0)
 

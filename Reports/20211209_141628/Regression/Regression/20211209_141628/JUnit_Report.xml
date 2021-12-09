@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression" time="139.887" tests="4" failures="0" errors="0">
+   <testsuite name="Regression" tests="4" failures="0" errors="0" time="139.887" skipped="0" timestamp="2021-12-09 14:16:30" hostname="alexandervcherashnii - localhost" id="Test Suites/Regression/Regression">
+      <properties>
+         <property name="deviceName" value="iPhone 8"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/Alexander/git/ClaweeiOS/Reports/20211209_141628/Regression/Regression/20211209_141628"/>
+         <property name="logFiles" value="/Users/Alexander/git/ClaweeiOS/Reports/20211209_141628/Regression/Regression/20211209_141628/execution0.log, /Users/Alexander/git/ClaweeiOS/Reports/20211209_141628/Regression/Regression/20211209_141628/appium.log, /Users/Alexander/git/ClaweeiOS/Reports/20211209_141628/Regression/Regression/20211209_141628/appium-proxy-server.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="alexandervcherashnii - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="deviceOS" value="iOS"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="iPhone10,4"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Apple"/>
+         <property name="deviceId" value="8fc83ece6ccceae3a6296115dd993d7ff26a2d9e"/>
+         <property name="deviceName" value="iPhone 8"/>
+         <property name="deviceOSVersion" value="15.1"/>
+      </properties>
+      <testcase name="Test Cases/First test/Login Email" time="56.871" classname="Test Cases/First test/Login Email" status="PASSED">
+         <system-out><![CDATA[2021-12-09 14:16:30 - [TEST_CASE][PASSED] - Test Cases/First test/Login Email: Test Cases/First test/Login Email
+
+2021-12-09 14:16:31 - [TEST_STEP][PASSED] - startExistingApplication("com.gigantic.clawee"): Starting app with application ID: 'com.gigantic.clawee'
+
+2021-12-09 14:16:31 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2021-12-09 14:16:41 - [MESSAGE][WARNING] - Failed to start ios_webkit_debug_proxy on default port 27753
+
+2021-12-09 14:16:41 - [MESSAGE][INFO] - Start paring with device: 8fc83ece6ccceae3a6296115dd993d7ff26a2d9e ...
+
+2021-12-09 14:16:42 - [MESSAGE][INFO] - Device 8fc83ece6ccceae3a6296115dd993d7ff26a2d9e is paired
+
+2021-12-09 14:16:44 - [MESSAGE][INFO] - Appium server started on port 54,762
+
+2021-12-09 14:16:56 - [MESSAGE][PASSED] - Starting app with application ID: 'com.gigantic.clawee'
+
+2021-12-09 14:16:56 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Login email/Connect with E-mail"), 0): Tapped on element 'Object Repository/First test/Login email/Connect with E-mail'
+
+2021-12-09 14:16:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:16:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Login email/Connect with E-mail'
+
+2021-12-09 14:16:57 - [TEST_STEP][PASSED] - setText(findTestObject("First test/Login email/First name"), "Alexander", 0): Text 'Alexander' has been set to element 'Object Repository/First test/Login email/First name'
+
+2021-12-09 14:16:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:16:59 - [MESSAGE][PASSED] - Text 'Alexander' has been set to element 'Object Repository/First test/Login email/First name'
+
+2021-12-09 14:16:59 - [TEST_STEP][PASSED] - setText(findTestObject("First test/Login email/Last name"), "Testing", 0): Text 'Testing' has been set to element 'Object Repository/First test/Login email/Last name'
+
+2021-12-09 14:16:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:17:00 - [MESSAGE][PASSED] - Text 'Testing' has been set to element 'Object Repository/First test/Login email/Last name'
+
+2021-12-09 14:17:00 - [TEST_STEP][PASSED] - setText(findTestObject("First test/Login email/E-mail"), "alex.qa.eng+55@gmail.com", 0): Text 'alex.qa.eng+55@gmail.com' has been set to element 'Object Repository/First test/Login email/E-mail'
+
+2021-12-09 14:17:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:17:03 - [MESSAGE][PASSED] - Text 'alex.qa.eng+55@gmail.com' has been set to element 'Object Repository/First test/Login email/E-mail'
+
+2021-12-09 14:17:03 - [TEST_STEP][PASSED] - setText(findTestObject("First test/Login email/Password"), "Alex0611", 0): Text 'Alex0611' has been set to element 'Object Repository/First test/Login email/Password'
+
+2021-12-09 14:17:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:17:05 - [MESSAGE][PASSED] - Text 'Alex0611' has been set to element 'Object Repository/First test/Login email/Password'
+
+2021-12-09 14:17:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("First test/Login email/Next"), "Next"): Send keys 'Next' on test object 'Object Repository/First test/Login email/Next' successfully.
+
+2021-12-09 14:17:26 - [MESSAGE][PASSED] - Send keys 'Next' on test object 'Object Repository/First test/Login email/Next' successfully.
+
+2021-12-09 14:17:26 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Login email/Sign Up"), 0): Tapped on element 'Object Repository/First test/Login email/Sign Up'
+
+2021-12-09 14:17:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:17:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Login email/Sign Up']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/First test/6 Weclome screens" time="25.098" classname="Test Cases/First test/6 Weclome screens" status="PASSED">
+         <system-out><![CDATA[2021-12-09 14:17:27 - [TEST_CASE][PASSED] - Test Cases/First test/6 Weclome screens: Test Cases/First test/6 Weclome screens
+
+2021-12-09 14:17:28 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Login guest/Next welcome pop up"), 0): Tapped on element 'Object Repository/First test/Login guest/Next welcome pop up'
+
+2021-12-09 14:17:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:17:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Login guest/Next welcome pop up'
+
+2021-12-09 14:17:36 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Login guest/Next welcome pop up"), 0): Tapped on element 'Object Repository/First test/Login guest/Next welcome pop up'
+
+2021-12-09 14:17:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:17:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Login guest/Next welcome pop up'
+
+2021-12-09 14:17:38 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Login guest/Next welcome pop up"), 0): Tapped on element 'Object Repository/First test/Login guest/Next welcome pop up'
+
+2021-12-09 14:17:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:17:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Login guest/Next welcome pop up'
+
+2021-12-09 14:17:40 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Login guest/Next welcome pop up"), 0): Tapped on element 'Object Repository/First test/Login guest/Next welcome pop up'
+
+2021-12-09 14:17:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:17:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Login guest/Next welcome pop up'
+
+2021-12-09 14:17:42 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Login guest/Next welcome pop up"), 0): Tapped on element 'Object Repository/First test/Login guest/Next welcome pop up'
+
+2021-12-09 14:17:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:17:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Login guest/Next welcome pop up'
+
+2021-12-09 14:17:45 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Login guest/Lets Go welcom pop up"), 0): Tapped on element 'Object Repository/First test/Login guest/Lets Go welcom pop up'
+
+2021-12-09 14:17:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:17:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Login guest/Lets Go welcom pop up'
+
+2021-12-09 14:17:48 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Login guest/popup close button"), 0): Tapped on element 'Object Repository/First test/Login guest/popup close button'
+
+2021-12-09 14:17:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:17:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Login guest/popup close button'
+
+2021-12-09 14:17:50 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Login guest/Lets go (Play for real)"), 0): Tapped on element 'Object Repository/First test/Login guest/Lets go (Play for real)'
+
+2021-12-09 14:17:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:17:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Login guest/Lets go (Play for real)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Lobby/Lobby" time="46.774" classname="Test Cases/Lobby/Lobby" status="PASSED">
+         <system-out><![CDATA[2021-12-09 14:17:52 - [TEST_CASE][PASSED] - Test Cases/Lobby/Lobby: Test Cases/Lobby/Lobby
+
+2021-12-09 14:17:53 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Lobby/Freebie Shop"), 0): Tapped on element 'Object Repository/First test/Lobby/Freebie Shop'
+
+2021-12-09 14:17:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:17:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Lobby/Freebie Shop'
+
+2021-12-09 14:17:55 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Lobby/iconHome"), 0): Tapped on element 'Object Repository/First test/Lobby/iconHome'
+
+2021-12-09 14:17:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:17:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Lobby/iconHome'
+
+2021-12-09 14:17:58 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Lobby/Free rounds"), 0): Tapped on element 'Object Repository/First test/Lobby/Free rounds'
+
+2021-12-09 14:17:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:18:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Lobby/Free rounds'
+
+2021-12-09 14:18:00 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Lobby/iconHome"), 0): Tapped on element 'Object Repository/First test/Lobby/iconHome'
+
+2021-12-09 14:18:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:18:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Lobby/iconHome'
+
+2021-12-09 14:18:02 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Lobby/Prizes"), 0): Tapped on element 'Object Repository/First test/Lobby/Prizes'
+
+2021-12-09 14:18:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:18:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Lobby/Prizes'
+
+2021-12-09 14:18:04 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Lobby/iconHome"), 0): Tapped on element 'Object Repository/First test/Lobby/iconHome'
+
+2021-12-09 14:18:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:18:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Lobby/iconHome'
+
+2021-12-09 14:18:05 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Lobby/Mail"), 0): Tapped on element 'Object Repository/First test/Lobby/Mail'
+
+2021-12-09 14:18:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:18:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Lobby/Mail'
+
+2021-12-09 14:18:08 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Lobby/Done"), 0): Tapped on element 'Object Repository/First test/Lobby/Done'
+
+2021-12-09 14:18:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:18:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Lobby/Done'
+
+2021-12-09 14:18:10 - [TEST_STEP][PASSED] - checkElement(findTestObject("First test/Lobby/Lock"), 0): Element 'Object Repository/First test/Lobby/Lock' is checked
+
+2021-12-09 14:18:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:18:23 - [MESSAGE][PASSED] - Element 'Object Repository/First test/Lobby/Lock' is checked
+
+2021-12-09 14:18:23 - [TEST_STEP][PASSED] - comment("elemant is fined "): elemant is fined 
+
+2021-12-09 14:18:23 - [MESSAGE][INFO] - elemant is fined 
+
+2021-12-09 14:18:23 - [TEST_STEP][PASSED] - checkElement(findTestObject("First test/Lobby/Balance 400"), 0): Element 'Object Repository/First test/Lobby/Balance 400' is checked
+
+2021-12-09 14:18:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:18:27 - [MESSAGE][PASSED] - Element 'Object Repository/First test/Lobby/Balance 400' is checked
+
+2021-12-09 14:18:27 - [TEST_STEP][PASSED] - comment("elemant is fined "): elemant is fined 
+
+2021-12-09 14:18:27 - [MESSAGE][INFO] - elemant is fined 
+
+2021-12-09 14:18:27 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Lobby/Open StoreBonusFreebies"), 0): Tapped on element 'Object Repository/First test/Lobby/Open StoreBonusFreebies'
+
+2021-12-09 14:18:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:18:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Lobby/Open StoreBonusFreebies'
+
+2021-12-09 14:18:30 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Lobby/Store"), 0): Tapped on element 'Object Repository/First test/Lobby/Store'
+
+2021-12-09 14:18:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:18:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Lobby/Store'
+
+2021-12-09 14:18:33 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Lobby/Bonus"), 0): Tapped on element 'Object Repository/First test/Lobby/Bonus'
+
+2021-12-09 14:18:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:18:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Lobby/Bonus'
+
+2021-12-09 14:18:35 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Lobby/Freebies"), 0): Tapped on element 'Object Repository/First test/Lobby/Freebies'
+
+2021-12-09 14:18:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:18:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Lobby/Freebies'
+
+2021-12-09 14:18:37 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Lobby/iconHome"), 0): Tapped on element 'Object Repository/First test/Lobby/iconHome'
+
+2021-12-09 14:18:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:18:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Lobby/iconHome']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Reset user/Reset user" time="10.847" classname="Test Cases/Reset user/Reset user" status="PASSED">
+         <system-out><![CDATA[2021-12-09 14:18:39 - [TEST_CASE][PASSED] - Test Cases/Reset user/Reset user: Test Cases/Reset user/Reset user
+
+2021-12-09 14:18:39 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Reset user/iconProfile"), 0): Tapped on element 'Object Repository/First test/Reset user/iconProfile'
+
+2021-12-09 14:18:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:18:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Reset user/iconProfile'
+
+2021-12-09 14:18:42 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Reset user/developer menu"), 0): Tapped on element 'Object Repository/First test/Reset user/developer menu'
+
+2021-12-09 14:18:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:18:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Reset user/developer menu'
+
+2021-12-09 14:18:46 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Reset user/Reset account"), 0): Tapped on element 'Object Repository/First test/Reset user/Reset account'
+
+2021-12-09 14:18:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:18:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Reset user/Reset account'
+
+2021-12-09 14:18:49 - [TEST_STEP][PASSED] - tap(findTestObject("First test/Reset user/Reset"), 0): Tapped on element 'Object Repository/First test/Reset user/Reset'
+
+2021-12-09 14:18:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-09 14:18:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First test/Reset user/Reset']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-09 14:16:30 - [TEST_SUITE][PASSED] - Regression: Test Cases/Reset user/Reset user]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

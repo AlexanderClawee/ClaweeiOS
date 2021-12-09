@@ -6,6 +6,7 @@
    <UUID>0e7baa20-f62f-4c85-94ca-1e4aa7152e79</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/Alexander/git/ClaweeiOS/ClaweeiOS.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
