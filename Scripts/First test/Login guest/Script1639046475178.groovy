@@ -17,6 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startExistingApplication('com.gigantic.clawee', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('First test/Login guest/Sign in as guest'), 0)
+
 Mobile.tap(findTestObject('First test/Login guest/Next welcome pop up'), 0)
 
 Mobile.tap(findTestObject('First test/Login guest/Next welcome pop up'), 0)

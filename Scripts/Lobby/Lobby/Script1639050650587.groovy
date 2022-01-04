@@ -35,6 +35,10 @@ Mobile.tap(findTestObject('First test/Lobby/Done'), 0)
 
 Mobile.checkElement(findTestObject('First test/Lobby/Lock'), 0)
 
+Mobile.tap(findTestObject('First test/Lobby/Promotion Bar Arrow'), 0)
+
+Mobile.tap(findTestObject('First test/Lobby/Promotion Bar Arrow'), 0)
+
 Mobile.comment('elemant is fined ')
 
 Mobile.checkElement(findTestObject('First test/Lobby/Balance 400'), 0)
@@ -43,9 +47,9 @@ Mobile.comment('elemant is fined ')
 
 Mobile.tap(findTestObject('First test/Lobby/Open StoreBonusFreebies'), 0)
 
-Mobile.tap(findTestObject('First test/Lobby/Store'), 0)
-
 Mobile.tap(findTestObject('First test/Lobby/Bonus'), 0)
+
+Mobile.tap(findTestObject('First test/Lobby/Store'), 0)
 
 Mobile.tap(findTestObject('First test/Lobby/Freebies'), 0)
 
