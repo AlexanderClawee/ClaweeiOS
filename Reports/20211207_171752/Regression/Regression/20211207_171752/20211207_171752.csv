@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Regression,,,,2021-12-07 17:17:54,2021-12-07 17:17:56,1.476s,FAILED
-,,,,,,,
-Test Cases/Login,,,,2021-12-07 17:17:55,2021-12-07 17:17:56,0.083s,FAILED
-"tap(findTestObject(""First test/Sign in as guest""), 0)",,,,2021-12-07 17:17:55,2021-12-07 17:17:56,0.066s,PASSED
