@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('First test/Reset user/Profile'), 0)
+Mobile.tap(findTestObject('Clawee/Reset user/Profile'), 0)
 
-Mobile.tap(findTestObject('First test/Reset user/developer menu'), 0)
+Mobile.tap(findTestObject('Clawee/Reset user/developer menu'), 0)
 
-Mobile.tap(findTestObject('First test/Reset user/Reset account'), 0)
+Mobile.tap(findTestObject('Clawee/Reset user/Reset account'), 0)
 
-Mobile.tap(findTestObject('First test/Reset user/Reset'), 0)
+Mobile.tap(findTestObject('Clawee/Reset user/Reset'), 0)
 
