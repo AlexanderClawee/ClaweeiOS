@@ -25,7 +25,7 @@ Mobile.setText(findTestObject('Clawee/Login email/First name'), 'Alexander', 0)
 
 Mobile.setText(findTestObject('Clawee/Login email/Last name'), 'Testing', 0)
 
-Mobile.setText(findTestObject('Clawee/Login email/E-mail'), 'alex.qa.eng+55@gmail.com', 0)
+Mobile.setText(findTestObject('Clawee/Login email/E-mail'), 'alex.qa.eng+56@gmail.com', 0)
 
 Mobile.setText(findTestObject('Clawee/Login email/Password'), 'Alex0611', 0)
 

@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Clawee/Claimed prizes/Prizes'), 0)
+Mobile.tap(findTestObject('Clawee/Delivery/Prizes bottom bar (btn)'), 0)
 
 Mobile.tap(findTestObject('Clawee/Delivery/Basket'), 0)
 
-Mobile.tap(findTestObject('Clawee/Delivery/Fill your details'), 0)
+Mobile.tap(findTestObject('Clawee/Delivery/Fill your details (btn)'), 0)
 
 Mobile.setText(findTestObject('Clawee/Delivery/First name'), 'Alexander', 0)
 
