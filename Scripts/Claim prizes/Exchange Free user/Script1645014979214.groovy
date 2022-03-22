@@ -17,11 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.gigantic.clawee', FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Clawee/Lobby/Botton bar/Basket prizes in lobby (btn)'), 0)
 
-Mobile.tap(findTestObject('Clawee/Game/Machnine 1 game (xpath)'), 0)
+Mobile.tap(findTestObject('Clawee/Claimed prizes/Claimed and or Exenged 6 prizes/exchange p1 (btn)'), 0)
 
-Mobile.tap(findTestObject('Clawee/Game/Play Button (Attributes)'), 5, FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementText(findTestObject('Clawee/Claimed prizes/Claimed and or Exenged 6 prizes/Exchange/Exchange (text)'), 
+    'Exchange')
 
-Mobile.tapAndHold(findTestObject('Clawee/Game/Play Button (Predicate String)'), 30, 5)
+Mobile.checkElement(findTestObject('Clawee/Claimed prizes/Claimed and or Exenged 6 prizes/Exchange/Coins (image)'), 0)
+
+Mobile.tap(findTestObject('Clawee/Claimed prizes/Claimed and or Exenged 6 prizes/Exchange/Exchange (btn)'), 0)
 

@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Clawee/Login email/Connect with E-mail'), 0)
 
 Mobile.tap(findTestObject('Clawee/Sing in/Sign in'), 0)
 
-Mobile.setText(findTestObject('Clawee/Login email/E-mail'), 'alex.qa.eng+55@gmail.com', 0)
+Mobile.setText(findTestObject('Clawee/Login email/E-mail'), 'alex.qa.eng+56@gmail.com', 0)
 
 Mobile.setText(findTestObject('Clawee/Login email/Password'), 'Alex0611', 0)
 

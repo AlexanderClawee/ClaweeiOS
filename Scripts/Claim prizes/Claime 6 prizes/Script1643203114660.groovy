@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startExistingApplication('com.gigantic.clawee', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Clawee/Lobby/Botton bar/Basket prizes in lobby (btn)'), 0)
 
 Mobile.tap(findTestObject('Clawee/Claimed prizes/Claimed and or Exenged 6 prizes/Claim prize 1 (btn)'), 0)

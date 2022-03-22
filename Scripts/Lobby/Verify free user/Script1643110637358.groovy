@@ -21,7 +21,7 @@ Mobile.checkElement(findTestObject('Clawee/Lobby/Top bar free user/Lock'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Clawee/Lobby/Top bar free user/Become VIP to Unlock'), 0)
 
-Mobile.verifyElementText(findTestObject('Clawee/Lobby/Top bar free user/Balance 400'), '400')
+Mobile.verifyElementText(findTestObject('Clawee/Lobby/Top bar free user/Balance 200 (text)'), '200')
 
 Mobile.checkElement(findTestObject('Clawee/Lobby/Top bar free user/XP level'), 0)
 

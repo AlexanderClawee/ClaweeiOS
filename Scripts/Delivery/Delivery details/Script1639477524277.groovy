@@ -21,7 +21,7 @@ Mobile.tap(findTestObject('Clawee/Delivery/Prizes bottom bar (btn)'), 0)
 
 Mobile.tap(findTestObject('Clawee/Delivery/Basket'), 0)
 
-Mobile.tap(findTestObject('Clawee/Delivery/Fill your details (btn)'), 0)
+Mobile.tap(findTestObject('Clawee/Delivery/Fill your details (text)'), 0)
 
 Mobile.setText(findTestObject('Clawee/Delivery/First name'), 'Alexander', 0)
 
