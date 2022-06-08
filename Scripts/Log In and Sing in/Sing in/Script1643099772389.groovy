@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.gigantic.clawee', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Clawee/Login email/Connect with E-mail'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.tap(findTestObject('Clawee/Sing in/Sign in'), 0)
 

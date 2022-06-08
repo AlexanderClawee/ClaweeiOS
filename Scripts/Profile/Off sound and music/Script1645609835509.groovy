@@ -23,3 +23,5 @@ Mobile.tap(findTestObject('Clawee/Profille/On off music (btn) (xpath)'), 0)
 
 Mobile.tap(findTestObject('Clawee/Profille/On off Sounds (btn) (xpath)'), 0)
 
+Mobile.tap(findTestObject('Clawee/Profille/iconHome(btn)'), 0)
+

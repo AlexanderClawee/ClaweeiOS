@@ -17,19 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.gigantic.clawee', FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication('com.gigantic.clawee')
 
-Mobile.tap(findTestObject('Clawee/Login email/7.4 btn/Connect with E-mail (btn)'), 0)
+Mobile.tap(findTestObject('Object Repository/Clawee/test/XCUIElementTypeButton - iconProfile'), 0)
 
-Mobile.setText(findTestObject('Clawee/Login email/First name'), 'Alexander', 0)
+Mobile.tap(findTestObject('Object Repository/Clawee/test/XCUIElementTypeStaticText - All'), 0)
 
-Mobile.setText(findTestObject('Clawee/Login email/Last name'), 'Testing', 0)
+Mobile.tap(findTestObject('Object Repository/Clawee/test/XCUIElementTypeStaticText - New'), 0)
 
-Mobile.setText(findTestObject('Clawee/Login email/E-mail'), 'alex.qa.eng+58@gmail.com', 0)
-
-Mobile.setText(findTestObject('Clawee/Login email/Password'), 'Alex0611', 0)
-
-Mobile.sendKeys(findTestObject('Clawee/Login email/Next'), 'Next')
-
-Mobile.tap(findTestObject('Clawee/Login email/Sign Up'), 0)
+Mobile.closeApplication()
 

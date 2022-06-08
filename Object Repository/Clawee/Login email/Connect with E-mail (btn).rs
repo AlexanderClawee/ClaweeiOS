@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>Connect with E-mail</name>
+   <name>Connect with E-mail (btn)</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -12,6 +12,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeStaticText</value>
+      <webElementGuid>522d39e4-ab58-4158-8d50-9a782644eea4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -19,6 +20,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>d6718e2e-5996-47c4-9763-803b60759a1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,6 +28,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>3d123999-8f33-4c6c-9ac9-b7d9645866b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +36,7 @@
       <name>height</name>
       <type>Main</type>
       <value>38.0</value>
+      <webElementGuid>69a9905d-a21f-4d93-9b89-d85c4ac4255c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +44,7 @@
       <name>index</name>
       <type>Main</type>
       <value>2</value>
+      <webElementGuid>52f2f8ba-f38a-4f92-8a65-68eaf88a427b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,6 +52,7 @@
       <name>label</name>
       <type>Main</type>
       <value>Connect with E-mail</value>
+      <webElementGuid>fd317374-d136-4415-8a66-15d5ef7fddab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,13 +60,15 @@
       <name>name</name>
       <type>Main</type>
       <value>Connect with E-mail</value>
+      <webElementGuid>8c7c23d1-97b8-414b-8cd8-f4dd531a8a42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
       <value>Connect with E-mail</value>
+      <webElementGuid>561b98c6-bd65-45e7-9c58-446314768565</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +76,7 @@
       <name>width</name>
       <type>Main</type>
       <value>386.0</value>
+      <webElementGuid>a41d866a-f4ca-4539-859c-0744eb59098d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,6 +84,7 @@
       <name>x</name>
       <type>Main</type>
       <value>222.0</value>
+      <webElementGuid>a39bd930-3c79-4351-b281-5d81b61c64db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,14 +92,16 @@
       <name>y</name>
       <type>Main</type>
       <value>954.0</value>
+      <webElementGuid>93d68891-43e1-472a-94fa-3f28f14b59c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[4]/XCUIElementTypeStaticText[1]</value>
+      <value>//AppiumAUT/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[4]/XCUIElementTypeStaticText[1]</value>
+      <webElementGuid>f42a4804-8172-470c-a764-424ea26c546e</webElementGuid>
    </webElementProperties>
-   <locator>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Connect with E-mail' and @name = 'Connect with E-mail']</locator>
+   <locator>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Connect with E-mail' and @name = 'Connect with E-mail' and @value = 'Connect with E-mail']</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>
